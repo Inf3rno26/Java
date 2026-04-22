@@ -42,6 +42,23 @@ public class Fish extends Animal{
 }
 ```
 
-- As output . Fish is moving is not appropriate we have to update/override the move method, and make it Swimming
+- As output , Fish is moving is not appropriate we have to update/override the move method, and make it Swimming
+
+- Main.java
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+        Fish fish = new Fish();
+
+        dog.move();
+        cat.move();
+        fish.move();
+    }
+}
+
+```
 
 ## We have to use **“@Override”** keyword before updating the method

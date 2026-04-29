@@ -1,6 +1,6 @@
 public class Car extends Vehicle {
     @Override
     void go(){
-        System.out.println("You drive the car");
+        System.out.println("You are driving the car!");
     }
 }

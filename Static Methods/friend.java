@@ -1,11 +1,11 @@
 public class friend {
     String name;
     static int numOfFriends;
+    
 
     friend(String name){
         this.name = name;
         numOfFriends++;
-        
     }
 
     static void showFriend(){
@@ -16,8 +16,9 @@ public class friend {
         friend f1 = new friend("Vishad");
         friend f2 = new friend("Mihir");
         friend f3 = new friend("Jay");
+        friend f4 = new friend("Shubham");
 
-        // System.out.println(friend.numOfFriends);
-        friend.showFriend();
+        System.out.println(friend.numOfFriends);
+        // friend.showFriend();
     }
 }

@@ -1,0 +1,22 @@
+# Compiled Java class files
+*.class
+
+
+
+
+
+# VS Code / Code Runner temporary files
+.vscode/
+tempCodeRunnerFile.java
+tempCodeRunnerFile.*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini

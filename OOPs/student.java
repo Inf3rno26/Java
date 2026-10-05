@@ -1,18 +1,18 @@
 public class student {
-    String name;
     String name2;
+    // String name2;
     int age;
     double cgpa;
     boolean isEnrolled;
 
-    student(String name,int age, double cgpa ){
+    student(String namee, int age, double cgpa) {
 
-        this.name = name;
+        this.name2 = namee;
         this.age = age;
         this.cgpa = cgpa;
     }
 
-    void study(){
+    void study() {
         System.out.println(this.name + "is Studying!");
     }
 }
